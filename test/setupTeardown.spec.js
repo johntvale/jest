@@ -27,6 +27,18 @@ describe('quem sobreviveu?', () => {
     randomAttack();
   });
 
+  afterEach(() => {
+    const survivors = [];
+    adventure.specialists.forEach((element) => {
+      survivors.push(` ${element.nome}`);
+    });
+    console.log(`Aventureiro(s) restante(s): ${survivors}`);
+  });
+
+  afterAll(() => {
+    console.log(`Parabéns ao último sobrevivente! ${adventure.specialists[0].nome}`);
+  });
+
   test('depois da primeira aventura', () => {
     expect(adventure.specialists.length).toBe(5);
   });
