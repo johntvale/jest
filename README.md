@@ -1,7 +1,7 @@
 # Projeto Jest
   Esse projeto foi desenvolvido no curso da Trybe, no módulo de Fundamentos.
 
-  O Objetivo do projeto Jest é desenvolver Testes Unitários, para garantir o funcionamento correto do algoritmo, e desenvolver "Mocks" para simular requisições a API's externas.
+  O objetivo do projeto Jest é desenvolver Testes Unitários, para garantir o funcionamento correto do algoritmo, e desenvolver "Mocks" para simular requisições a API's externas.
 
 
 ---
@@ -21,4 +21,4 @@
 ---
 
 ### Créditos
-  Para garantir o aprendizado neste projeto, a Trybe, em alguns casos, criou algoritmos para que eu desenvolvesse os testes unitário. e em outros criou os testes para que eu desenvolvesse os "Mocks".
+  Para garantir o aprendizado neste projeto, a Trybe, em alguns casos, criou algoritmos para que eu desenvolvesse os testes unitários, e em outros casos criou os testes para que eu desenvolvesse os "Mocks".
